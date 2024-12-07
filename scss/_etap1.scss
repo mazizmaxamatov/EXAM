@@ -1,0 +1,93 @@
+.etap1 {
+    max-width: 1440px;
+    margin: auto;
+
+
+    .etap1_nav {
+        margin: 50px 0px 30px 0px;
+
+        h1 {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 600;
+            font-size: 48px;
+            color: #363738;
+        }
+    }
+
+    .etap1_main {
+        .card3 {
+            display: flex;
+            gap: 30px;
+            max-width: 1183px;
+            height: 245px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px #D7D7DD;
+
+            .card3_left {
+                margin: 25px 0px 0px 100px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .card3_right {
+                margin-top: 28px;
+
+                h4 {
+                    max-width: 278px;
+                    font-family: "Exo 2", sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #363738;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                p {
+                    max-width: 568px;
+                    height: 88px;
+                    font-family: "PT Sans", sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-top: 20px;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:763px) {
+    .etap1 .etap1_nav h1 {
+        font-size: 44px;
+        max-width: 687px;
+    }
+
+    .etap1 .etap1_main .card3 .card3_left img {
+        display: none;
+    }
+
+    .etap1 .etap1_main .card3 {
+        max-width: 690.5px;
+        height: 245px;
+    }
+
+    .etap1 .etap1_main .card3 .card3_right {
+        padding: 0px 40px 0px 0px;
+    }
+
+    .etap1 .etap1_main .card3 .card3_right .h4 {
+        max-width: 278.92px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .etap1 {
+        display: none;
+    }
+}
